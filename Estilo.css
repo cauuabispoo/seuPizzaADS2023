@@ -82,17 +82,44 @@ nav a:hover{
 }
 .lista-beneficios{
     list-style: "😋";
-    width: 50%;
+    width: 20%;
     display: inline-block;
     vertical-align: top;
+    padding-left: 30%;
 }
 .lista-beneficios li{
     line-height: 1.5;
-
 }
 .lista-beneficios li:before{
     content: "🍕";
 }
 .img_beneficios{
-    width: 20%;
+    width: 300px;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+.conteudo-beneficios{
+    width: 100%;
+}
+.video{
+    text-align: center;
+}
+
+/*Estilização do Footer*/
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background: grey;
+    padding: 0px 0 20px 0;
+}
+.copyright{
+    font-size: 12px;
+    margin:10px;
+}
+.logo_footer{
+    width: 10%;
 }
