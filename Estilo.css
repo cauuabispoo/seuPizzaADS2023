@@ -1,0 +1,98 @@
+/*Escolhendo a fonte de toda a pagina e ajustando a borda para nenhuma*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Escolhendo a cor e a distancia do logo ate o final do header*/
+header{
+    background-color: #2c2b2a;
+    padding: 20px;
+}
+/*Estilizando o menu á direita do logo e a distandia do topo*/
+nav{
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+/*Estilizando a distancia entre os itens do menu e a posição em linha*/
+nav li{
+    display: inline;
+    margin: 0/*cima*/ 0/*direita*/ 0/*baixo*/ 15px/*esquerda*/;
+}
+/*Escolhendo a cor das letras do menu, retirando o sublinhado, negrito e o tamanho*/
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*Estilização do link quando o mouse estiver em cima*/
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*Estilizando a posição do logo e menu pelo div*/
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+/*Estilizando o tamanho do logo*/
+.logo{
+    width: 50%;
+}
+.banner{
+    width: 100%;
+}
+/*Sobra a Pizzaria Seu Pizza*/
+.pizza{
+    width: 100px;
+    float: left;
+    margin: 0 20px;
+}
+.titulo-pizza{
+    text-align: center;
+    clear:left;
+    font-size: 2em;
+}
+.sobre-pizzaria{
+    background-color: #FFFFFE;
+    width: 80%;
+    padding-left: 100px;
+}
+
+.titulo-padrao{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 30, 0, 20, 0;
+}
+
+/*Estilização da sessão Nosso estabelecimento*/
+.mapa{
+    text-align: center;
+    background: linear-gradient(#fffffe, #FFBB00);
+}
+/*Estilização da sessão Beneficios*/
+.beneficios{
+    background-color: #FFBB00;    
+}
+.lista-beneficios{
+    list-style: "😋";
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.lista-beneficios li{
+    line-height: 1.5;
+
+}
+.lista-beneficios li:before{
+    content: "🍕";
+}
+.img_beneficios{
+    width: 20%;
+}
