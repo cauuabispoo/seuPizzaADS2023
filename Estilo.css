@@ -123,3 +123,13 @@ footer{
 .logo_footer{
     width: 10%;
 }
+
+
+
+/*Cardapio*/
+.titulo-cardapio:before{
+    content: "🍕";
+}
+.cardapio{
+    text-align: center;
+}
