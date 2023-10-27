@@ -121,7 +121,7 @@ footer{
     margin:10px;
 }
 .logo_footer{
-    width: 10%;
+    width: 5%;
 }
 
 
@@ -129,7 +129,37 @@ footer{
 /*Cardapio*/
 .titulo-cardapio:before{
     content: "🍕";
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
 }
 .cardapio{
     text-align: center;
 }
+.car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 150px;
+}
+
+.pizza_car img{
+    max-width: 50%;
+}
+
+.pizza_car{
+    border: 2px inset rgb(168, 94, 9);
+    margin-right: 20px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 0;
+    display: inline-block;
+    text-align: center;
+ }
+
+
+ 
